@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginApp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="388dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="181dp"
+                android:layout_marginEnd="-7dp"
+                android:text="Primeros tus credenciales!!"
+                android:textColor="@color/Inacap"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"></TextView>
+
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="387dp"
+                android:layout_marginEnd="276dp"
+                android:text="Contraseña:"
+                android:textSize="15dp"
+                android:textStyle="italic"></TextView>
+
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="54dp"
+                android:layout_marginTop="433dp"
+                android:layout_marginEnd="274dp"
+                android:text="Repetir Contraseña:"
+                android:textSize="15dp"
+                android:textStyle="italic"></TextView>
+
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="335dp"
+                android:layout_marginEnd="279dp"
+                android:text="Correo:"
+                android:textSize="15dp"
+                android:textStyle="italic"></TextView>
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="377dp"
+                android:layout_marginEnd="55dp"
+                android:ems="10"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/etRepPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="432dp"
+                android:layout_marginEnd="56dp"
+                android:ems="10"
+                android:hint="Repetir Contraseña"
+                android:inputType="textPassword"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/etCorreo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="134dp"
+                android:layout_marginTop="325dp"
+                android:layout_marginEnd="68dp"
+                android:ems="10"
+                android:hint="Correo"
+                android:inputType="textEmailAddress"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btnSiguiente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="223dp"
+                android:layout_marginTop="609dp"
+                android:layout_marginEnd="65dp"
+                android:text="Siguiente"
+                android:textSize="11dp"
+                android:textStyle="italic"></Button>
+
+            <Button
+                android:id="@+id/btnAtras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="611dp"
+                android:layout_marginEnd="218dp"
+                android:text="Atras"
+                android:textSize="11dp"
+                android:textStyle="italic"></Button>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="221dp"
+            android:layout_marginBottom="554dp"
+            android:text="Bienvenido!"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/tvCantDisponible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:hint="asddsa"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="239dp"
+            android:layout_marginTop="374dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="330dp"
+
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="375dp"
+            android:layout_marginEnd="176dp"
+            android:layout_marginBottom="329dp"
+            android:text="Lugares Disponibles: "
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="118dp"
+            android:layout_marginBottom="554dp"
+            android:text="Nombre¿?"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btnQR"
+            android:layout_width="138dp"
+            android:layout_height="93dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="top"
+            android:layout_marginStart="137dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="437dp"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="201dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/escaner"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginBottom="164dp"
+            android:text="Click para Leer QR!"
+            android:textSize="15dp"></TextView>
+
+    </RelativeLayout>
+
+</FrameLayout>

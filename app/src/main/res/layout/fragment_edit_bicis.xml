@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FragmentEditBicis">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marca:"
+            android:textColor="@color/Inacap"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.171"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.089"
+            tools:ignore="MissingConstraints"></TextView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="Color:"
+            android:textColor="@color/Inacap"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="59dp"></TextView>
+
+        <EditText
+            android:id="@+id/etMarca"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="¿?"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="68dp"></EditText>
+
+        <EditText
+            android:id="@+id/etColor"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="¿?"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="162dp"></EditText>
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="116dp"
+            android:text="Eliminar"
+            android:textSize="11dp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@+id/btnEditar"
+            app:layout_constraintTop_toBottomOf="@+id/etColor"
+            tools:ignore="MissingConstraints"></Button>
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="124dp"
+            android:text="Editar"
+            android:textSize="11dp"
+            android:textStyle="italic"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="78dp"></Button>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
